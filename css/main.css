@@ -1,0 +1,288 @@
+/* Inserta tu código aquí */
+*{
+    outline: 1px solid rgba(255,0,0,0.3);
+}
+
+
+/**-----------------------------------HEADERNAV---------------*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tti{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tto{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+/*---------------------------------HEADER---------------------*/
+
+
+
+.desktop-menu, .tto{
+    margin-top: 10px;
+}
+
+.tapita{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(216, 67, 67);
+    font-family: 'Oswald', sans-serif;
+}
+
+.fondo{
+    background-image: url(../images/header.jpg);
+    background-position: top;
+    background-size: cover;
+    color: #FFF;
+}
+
+header a{
+	color: rgba(253, 239, 178, 0.97);
+}
+nav li a{
+	display: block;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+    color: rgba(253, 239, 178, 0.97);
+	font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+
+
+.boton1{
+    padding: 10px 10px;
+    background-color: rgb(216, 67, 67);
+    color: grey;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+    
+    
+}
+
+.tto {
+    color:  rgba(253, 239, 178, 0.97);
+    font-family: 'Merriweather', sans-serif;
+}
+/*---------------------------------mainnav--------------------*/
+
+#main-navigation
+{
+	position: absolute;
+	right: 10px;
+	margin: 5px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#main-navigation ul li a {
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    
+    
+}
+
+#main-navigation ul li a:hover{
+     color: rgba(247, 186, 142, 0.65);
+    letter-spacing: 2px;
+}
+
+
+
+.icon-menu{
+ font-size: 20px;    
+}
+
+/*---------------------------------Banner--------------------*/
+
+.banner{
+    background-image: url(../img/creamy.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.grayfondo{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.texto h1 {
+    color: #ebdd8b;
+    font-family: 'Merriweather', sans-serif;
+    
+   }
+
+.frase
+{
+	padding: 170px;
+	text-align: center;
+    color: white;
+    }
+
+/*-----------------------------CREAMMY--------------------*/
+
+.creamy{
+     background-color: rgba(253, 239, 178, 0.97);
+    padding: 30px 0;
+   
+}
+
+.textodos{
+    color: rgb(216, 67, 67);
+    text-align: justify;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+/*---------------------------AboutCreamy--------------------*/
+
+.aboutcreamy{
+    background-color: rgb(216, 67, 67);
+    color: rgba(240, 214, 154, 0.83);
+    padding: 50px 0;
+    font-family: 'Merriweather', sans-serif;
+}
+
+/*--------------------------LOVESERVICES--------------------*/
+
+.services {
+    background-color: rgba(253, 239, 178, 0.97);
+    padding: 40px 0;
+    color: rgb(193, 49, 49);
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+.icon-container {
+   
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+     color: rgb(216, 67, 67);
+      }
+
+.icon-container i{
+    line-height: 50px;
+    font-size: 100px;
+     color: rgb(193, 49, 49);
+    
+   }
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*-------------------------FOOTER--------------------*/
+
+.footer {
+    background-color:  rgb(216, 67, 67);
+    padding: 20px 0;
+    color:  rgb(247, 217, 146);
+}
+
+/*-----------------------QUERIES--------------------*/
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.tapita .row>div
+	{
+		text-align:left;
+        width: 50%;
+	}
+	
+	.desktop-menu
+	{
+		width: 100%;
+        display: inline-block;
+        padding: 0;
+        
+	}
+    
+    .desktop-menu a {
+        
+           font-size: 10px;
+    }
+    
+    .services {
+    margin: 0;
+}
+.tto{
+    font-size: 14px;
+    color: rgb(248, 161, 107);
+}
+    
+    .github{
+        margin: 0;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width:640px)
+{
+    
+   .frase
+{
+	padding: 80px;
+	text-align: center;
+}
+    
+ .btn-menu {
+    margin: 12px;
+     border: 1px solid white;
+     border-radius: 5px;
+     background-color: none;
+    
+    
+}
+    .tapita{
+         background-color: white;
+     
+}
+    .desktop-menu, .tto{
+    color: rgb(248, 161, 107);
+    margin-top: 20px;
+    
+}
+    .frase
+{
+	background-color: rgba(0, 0, 0, 0.51);
+    
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
